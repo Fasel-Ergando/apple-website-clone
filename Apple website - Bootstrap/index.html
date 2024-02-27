@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore the Apple Website, crafted with HTML, CSS, and JavaScript, enhanced by Bootstrap, a widely-used HTML and CSS framework.">
+  <meta name="author" content="Fasel Godbcho">
+  <title>Apple</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="Assets/images/icon/favicon.ico" type="image/x-icon">
+  
+  <!-- Bootstrap files -->
+  <link rel="stylesheet" href="Assets/bootstrap-5.3.2-dist/css/bootstrap.css">
+  <script src="Assets/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
+
+  <link rel="stylesheet" href="CSS/style.css">
+  <script defer src="JS/main.js"></script>
+</head>
+<body>
+  <header class="z-3">
+    <nav class="navbar navbar-expand-md p-0 global-nav position-fixed w-100">
+      <div class="container-fluid h-100 p-0 position-relative">
+          <!-- Logo - For Mobile devices -->
+        <a class="mx-3 d-md-none svg-hoverable" href="#">
+          <svg height="44" fill="rgba(225, 225, 225, 0.9)" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg" class="svg-hoverable"><path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path></svg>
+          <div class="visually-hidden">Apple.com</div>
+        </a>
+
+        <!-- For larger screens -->
+        <div class="collapse container-xxl p-0 h-100 navbar-collapse" id="globalNavBar">
+          <ul class="navbar-nav w-100 h-100">
+            <div class="container-lg p-md-0 main-nav  d-flex align-items-center justify-content-between">
+              <li class="nav-item d-none d-md-block">
+                <!-- Logo for larger devices -->
+                <a class="nav-link apple-logo mx-0 position-relative" href="#">
+                  <svg height="44" fill="rgba(225, 225, 225, 0.9)" viewBox="0 0 14 44" width="14" xmlns="http://www.w3.org/2000/svg" class="svg-hoverable"><path d="m13.0729 17.6825a3.61 3.61 0 0 0 -1.7248 3.0365 3.5132 3.5132 0 0 0 2.1379 3.2223 8.394 8.394 0 0 1 -1.0948 2.2618c-.6816.9812-1.3943 1.9623-2.4787 1.9623s-1.3633-.63-2.613-.63c-1.2187 0-1.6525.6507-2.644.6507s-1.6834-.9089-2.4787-2.0243a9.7842 9.7842 0 0 1 -1.6628-5.2776c0-3.0984 2.014-4.7405 3.9969-4.7405 1.0535 0 1.9314.6919 2.5924.6919.63 0 1.6112-.7333 2.8092-.7333a3.7579 3.7579 0 0 1 3.1604 1.5802zm-3.7284-2.8918a3.5615 3.5615 0 0 0 .8469-2.22 1.5353 1.5353 0 0 0 -.031-.32 3.5686 3.5686 0 0 0 -2.3445 1.2084 3.4629 3.4629 0 0 0 -.8779 2.1585 1.419 1.419 0 0 0 .031.2892 1.19 1.19 0 0 0 .2169.0207 3.0935 3.0935 0 0 0 2.1586-1.1368z"></path></svg>
+                  <div class="visually-hidden">Apple.com</div>
+                </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Store
+                </a>
+                <div class="main-nav-submenu d-none position-absolute">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Shop the Latest</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Vision Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Accessories</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Quick Links</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Find a store</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Order Status</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Trade In</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Financing</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop special Stores</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Certified Refurbished</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Education</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Business</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Veterans and Military</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Government</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Mac
+                </a>
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Mac</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All Mac</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">MacBook Air</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">MacBook Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iMac</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac mini</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac Studio</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Displays</a></li>
+                          
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Compare Mac</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Mac Does That</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop Mac</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop Mac</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Mac Accessories</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Trade In</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Financing</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from Mac</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">More Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+ for Mac</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">MacOs Sonoma</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apps by Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Continuity</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iCloud+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Mac for Business</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Education</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  iPad
+                </a>
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore iPad</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All iPad</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad Air</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad mini</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Pencil</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Keyboards</a></li>
+                          
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Compare iPad</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Why iPad</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop iPad</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop iPad</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPad Accessories</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Trade In</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Financing</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from Mac</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPad Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+ for iPad</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPadOs 17</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apps by Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iCloud+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Education</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  iPhone
+                </a>
+                
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore iPhone</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All iPhone</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPone 15 Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone 15</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone 14</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone 13</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone SE</a></li>
+                          
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Compare iPhone</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Switch from Android</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop iPhone</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop iPhone</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPhone Accessories</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Trade In</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Carrier Deals at Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Financing</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from iPhone</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPhone Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+ for iPhone</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iOS 17</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apps by Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iPhone Privacy</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">iCloud+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Wallet, Pay, Card</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Siri</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Watch
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Watch</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All Apple Watch</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch Series 9</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch Ultra 2</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch SE</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple watch Nike</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch Hermes</a></li>
+                          
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Compare Watch</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Why Apple Watch</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop Apple Watch</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop Apple Watch</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Watch Studio</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Watch Bands</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Watch Accessories</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Trade In</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Financing</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from watch</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Watch Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">WatchOS 10</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apps by Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Fitness+</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Vision
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Vision</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Vision Pro</a></li>
+                          
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Guided Tour</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Tech Specs</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop Vision</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop Apple Vision Pro</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Vision Pro Accessories</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">book a Demo</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from Vision</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Vision Pro Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  AirPods
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore AirPods</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All AirPods</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods Pro 2nd generation</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods 2nd generation</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods 3nd generation</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods Max</a></li>
+
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Compare AirPods</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop AirPods</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop AirPods</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AirPods Accessories</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from AirPods</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AirPods Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCare+ for Headphones</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Music</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  TV & Home
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore TV & Home</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore All TV & Home</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple TV 4K</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">HomePod</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">HomePod mini</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop TV & Home</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop Apple TV 4K</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop HomePod</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop HomePod mini</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Shop Siri remote</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">TV & HOme Accessories</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">More from TV & Home</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple TV Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">HomePod Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AppleCard+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple TV app</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple TV+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Home app</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple Music</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Siri</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AirPlay</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Entertainment
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Entertainment</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Explore Entertainment</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple One</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple TV+</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Music</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Arcade</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Fitness+</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple News+</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Podcasts</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Books</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">App Store</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Support</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple TV+ Support</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple MUsic Support</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Accessories
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Shop Accessories</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Shop All Accessories</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Watch</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Vision Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">TV & Home</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Accessories</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Made by Apple</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Beats by Dr.Dre</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">AirTag</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link nv-link" href="#">
+                  Support
+                </a>
+
+                <div class="main-nav-submenu position-absolute d-none">
+                  <div class="container-lg py-5">
+                    <div class="row pb-4">
+                      <div class="col-auto me-5">
+                        <div class="group-header mb-1 fw-bolder p-0">Explore Support</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPhone</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Mac</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">iPad</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Watch</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Apple Vision Pro</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">AirPods</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">Music</a></li>
+                          <li><a href="#" class="fs-4 fw-semibold text-decoration-none text-white">TV</a></li>
+
+                          <li class="mt-3"><a href="#" class="fw-semibold text-decoration-none text-white">Explore Support</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto me-3">
+                        <div class="group-header mb-1 fw-bolder p-0">Get Help</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Community</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Check Coverage</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Repair</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Contact Us</a></li>
+                        </ul>
+                      </div>
+                      <div class="col-auto">
+                        <div class="group-header mb-1 fw-bolder p-0">Helpful Topics</div>
+                        <ul class="list-unstyled m-0 p-0">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Get AppleCare+</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Apple ID & Password</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Billing & Subscriptions</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Find My</a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">Accessibility</a></li>
+                        </ul>
+                      </div>
+                     </div>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item searchNavItem mx-2">
+                <a href="#" class="nv-link-click">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="svg-hoverable" fill="rgba(255, 255, 255, 0.8)" width="15px" height="44px" viewBox="0 0 15 44">
+                    <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
+                  </svg>
+                </a>
+                <div class="visually-hidden">Search Apple</div>
+
+                <div class="main-nav-submenu position-absolute pb-5 d-none">
+                  <div class="container-lg py-1 p-lg-0">
+                    <div class="searchBox d-flex align-items-center pt-3">
+                      <svg height="36" fill="rgba(232, 232, 237, 0.8)" viewBox="0 0 30 32" width="34" xmlns="http://www.w3.org/2000/svg"><path d="m23.3291 23.3066-4.35-4.35c-.0105-.0105-.0247-.0136-.0355-.0235a6.8714 6.8714 0 1 0 -1.5736 1.4969c.0214.0256.03.0575.0542.0815l4.35 4.35a1.1 1.1 0 1 0 1.5557-1.5547zm-15.4507-8.582a5.6031 5.6031 0 1 1 5.603 5.61 5.613 5.613 0 0 1 -5.603-5.61z"></path></svg>
+                      <input type="text" placeholder="Search apple.com" class="fw-light ms-1 rounded-0 form-control form-control-plaintext">
+                      <svg height="18" fill="rgba(232, 232, 237, 0.8)" viewBox="0 0 14 14" width="18" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;" class="clearSearchApple svg-opacity-hover d-none"><path d="m7 .0339a6.9661 6.9661 0 1 0 6.9661 6.9661 6.9661 6.9661 0 0 0 -6.9661-6.9661zm2.798 8.9867a.55.55 0 0 1 -.778.7774l-2.02-2.02-2.02 2.02a.55.55 0 0 1 -.7784-.7774l2.0206-2.0206-2.0204-2.02a.55.55 0 0 1 .7782-.7778l2.02 2.02 2.02-2.02a.55.55 0 0 1 .778.7778l-2.0203 2.02z"></path></svg>
+                    </div>
+
+                    <div class="group-header mt-3 mb-2 fw-bolder p-0">Quick Links</div>
+                        <ul class="list-unstyled quick-links pb-4">
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white d-flex align-items-center">
+                            <img src="Assets/images/list-arrow-right.svg">
+                            <span class="ms-2">Find a store</span>
+                          </a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                            <img src="Assets/images/list-arrow-right.svg">
+                            <span class="ms-2">Apple Vision Pro</span>
+                          </a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                            <img src="Assets/images/list-arrow-right.svg">
+                            <span class="ms-2">AirPods</span>
+                          </a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                            <img src="Assets/images/list-arrow-right.svg">
+                            <span class="ms-2">AirTag</span>
+                          </a></li>
+                          <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                            <img src="Assets/images/list-arrow-right.svg">
+                            <span class="ms-2">Apple Trade In</span>
+                          </a></li>
+                        </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item viewProductsNav">
+                <a href="#" class="nv-link-click">
+                  <svg height="44" viewBox="0 0 14 44" fill="rgba(255, 255, 255, 0.8)" class="svg-hoverable" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg>
+                </a>
+                <div class="visually-hidden">My Bag</div>
+
+                <div class="main-nav-submenu position-absolute pb-5 d-none">
+                  <div class="container-lg py-5 px-5 px-lg-0">
+                    <h1 class="bagState fs-4 mb-3 fw-bolder text-faded-lighter">
+                      Your Bag is empty.
+                    </h1>
+                    <span class="text-faded" style="font-size: 14px;">
+                      <a href="#" class="link-primary" style="font-size: 14px;">Sign in</a> to see if you have any saved items
+                    </span>
+                    <div class="group-header mt-3 p-0" style="font-size: 14px;">My Profile</div>
+                    <ul class="list-unstyled pt-3">
+                      <li>
+                        <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 14px;">
+                          <svg id="Outlined" fill="#86868b" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="shippingbox_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M14.5146,9.5234a2.56,2.56,0,0,0-1.11-1.4228l-4.25-2.3975a2.3909,2.3909,0,0,0-2.31,0l-4.25,2.3975a2.2971,2.2971,0,0,0-.6025.5107A2.2684,2.2684,0,0,0,1.4,10.1475v4.705a2.3546,2.3546,0,0,0,1.1953,2.0469l4.25,2.3975a2.3541,2.3541,0,0,0,2.31,0l4.25-2.3975A2.3546,2.3546,0,0,0,14.6,14.8525v-4.705A2.3322,2.3322,0,0,0,14.5146,9.5234ZM7.4,12.9453v5.2871L3.1851,15.8545a1.153,1.153,0,0,1-.585-1.002L2.603,10.24Zm.6-1.04L3.147,9.17a.4347.4347,0,0,1,.0385-.0244l1.7623-.9941,4.895,2.7158Zm5.4-1.666v4.6132a1.153,1.153,0,0,1-.585,1.002L8.6,18.2324V12.9453ZM8.5649,6.748l4.25,2.3975a.4347.4347,0,0,1,.0385.0244l-1.7842,1.0059L6.1733,7.46l1.2618-.712A1.1731,1.1731,0,0,1,8.5649,6.748Z" fill="6E6E73"></path></g></svg>
+                          <span class="text-white">Orders</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 14px;">
+                            <svg id="Outlined" fill="#86868b" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="bookmark_compact"><rect id="box_" width="16" height="25" fill="none"></rect>
+                            <path id="art_" d="M10.3,5.15H5.7a2.3022,2.3022,0,0,0-2.3,2.3V19.0381a.8642.8642,0,0,0,.19.5869.67.67,0,0,0,.5313.2246.7441.7441,0,0,0,.438-.1465,4.8685,4.8685,0,0,0,.5366-.4765l2.8931-2.8858,2.9165,2.8867a6.4062,6.4062,0,0,0,.5307.4717.7286.7286,0,0,0,.4429.15.6684.6684,0,0,0,.5308-.2246.8619.8619,0,0,0,.19-.5869V7.45A2.3022,2.3022,0,0,0,10.3,5.15ZM4.6,7.45A1.102,1.102,0,0,1,5.7,6.35h4.6A1.102,1.102,0,0,1,11.4,7.45l-.0005,10.5781L8.832,15.4863a1.186,1.186,0,0,0-1.665.001L4.6,18.0293Z" fill="6E6E73"></path></g></svg>
+                          <span class="text-white">Your Saves</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 14px;">
+                          <svg id="Outlined" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="gear_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M15.6094,12.3252a.5142.5142,0,0,0-.2959-.2959l-.5972-.2324a6.6665,6.6665,0,0,0-.16-.917l.4809-.42a.5172.5172,0,0,0-.3291-.9073l-.6372-.0136c-.0654-.1377-.1343-.2784-.2139-.4151s-.1635-.2636-.2519-.3935l.3076-.5576a.517.517,0,0,0-.62-.7393l-.6035.2051a6.68,6.68,0,0,0-.7134-.5977l.0986-.6328a.5172.5172,0,0,0-.43-.5918.54.54,0,0,0-.4052.1084l-.5015.4033A6.911,6.911,0,0,0,9.87,6.01l-.124-.6328a.5178.5178,0,0,0-.9512-.167l-.333.5507a7.2576,7.2576,0,0,0-.92.0039L7.2056,5.207a.518.518,0,0,0-.9512.167l-.125.6377a6.6192,6.6192,0,0,0-.8652.31l-.501-.4063a.5176.5176,0,0,0-.8364.4834l.0991.6358a6.6073,6.6073,0,0,0-.7017.5947L2.71,7.417a.5173.5173,0,0,0-.6211.7392l.3134.5694a6.7192,6.7192,0,0,0-.4653.7959l-.6421.0117a.516.516,0,0,0-.5083.5264.52.52,0,0,0,.1763.38l.4849.4238a6.8261,6.8261,0,0,0-.16.9111l-.6006.23a.5176.5176,0,0,0-.001.9658l.5972.2324a6.6665,6.6665,0,0,0,.16.917l-.4809.419a.5184.5184,0,0,0-.05.7314.52.52,0,0,0,.3789.1758l.6367.0137c.063.1318.1333.2754.2144.416.0673.1172.143.2246.2163.3281l.04.0566-.312.5664a.5176.5176,0,0,0,.2036.7032.52.52,0,0,0,.416.0361l.5967-.2031a6.82,6.82,0,0,0,.7207.5937l-.0991.6348a.5153.5153,0,0,0,.0933.3857.5187.5187,0,0,0,.7421.0977l.5064-.4082a6.6137,6.6137,0,0,0,.8628.3193l.1245.6358a.5139.5139,0,0,0,.22.33.53.53,0,0,0,.3877.0782.5193.5193,0,0,0,.3433-.24l.3388-.56.0577.0049a4.8076,4.8076,0,0,0,.7871.0019l.0669-.0058.3383.5625a.518.518,0,0,0,.9512-.167l.1245-.6348a6.6152,6.6152,0,0,0,.8589-.3193l.5088.4131a.5176.5176,0,0,0,.8364-.4834l-.0991-.6358a6.6173,6.6173,0,0,0,.7017-.5947l.6142.2119a.5174.5174,0,0,0,.6211-.7392l-.3135-.5694a6.6548,6.6548,0,0,0,.4649-.7959l.6421-.0117a.5168.5168,0,0,0,.5088-.5264.5166.5166,0,0,0-.1768-.38l-.4849-.4238a6.6694,6.6694,0,0,0,.16-.9111l.6006-.2315a.5177.5177,0,0,0,.2969-.6689ZM6.4941,13.9043,4.7666,16.8926a5.4449,5.4449,0,0,1,.0044-8.792L6.5,11.0986A2.0525,2.0525,0,0,0,6.4941,13.9043Zm2.1646-1.7822a.7608.7608,0,1,1-.4609-.3555A.7543.7543,0,0,1,8.6587,12.1221ZM7.54,10.499,5.8154,7.5068A5.4579,5.4579,0,0,1,7.9907,7.041h.0239a5.4693,5.4693,0,0,1,5.4068,4.8633l-3.457-.0029a2.0363,2.0363,0,0,0-.18-.43A2.0586,2.0586,0,0,0,7.54,10.499Zm-.0058,4.0049a2.0556,2.0556,0,0,0,2.435-1.4023l3.4512.0029a5.4455,5.4455,0,0,1-7.6147,4.3877Z" fill="#6E6E73"></path></g></svg>
+                          <span class="text-white">Account</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 14px;">
+                          <svg id="Outlined" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="person.crop.circle_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M15.09,12.5a7.1,7.1,0,1,1-7.1-7.1A7.1077,7.1077,0,0,1,15.09,12.5ZM7.99,6.6a5.89,5.89,0,0,0-4.4609,9.7471c.6069-.9658,2.48-1.6787,4.4609-1.6787s3.8545.7129,4.4615,1.6787A5.89,5.89,0,0,0,7.99,6.6ZM7.99,8.4A2.5425,2.5425,0,0,0,5.5151,11,2.5425,2.5425,0,0,0,7.99,13.6,2.5424,2.5424,0,0,0,10.4653,11,2.5424,2.5424,0,0,0,7.99,8.4Z" fill="#6E6E73"></path></g></svg>
+                          <span class="text-white">Sign in</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>                
+              </li>
+            </div>
+          </ul>
+        </div>
+
+        <!-- For smaller screens -->
+        <div class="d-flex align-items-center d-md-none pt-1 me-5">
+          <div class="mx-4 nav-link-mobile">
+            <a href="#" class="nv-link-click-mobile">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="rgba(255, 255, 255, 0.8)" width="15px" height="44px" viewBox="0 0 15 44">
+                <path d="M14.298,27.202l-3.87-3.87c0.701-0.929,1.122-2.081,1.122-3.332c0-3.06-2.489-5.55-5.55-5.55c-3.06,0-5.55,2.49-5.55,5.55 c0,3.061,2.49,5.55,5.55,5.55c1.251,0,2.403-0.421,3.332-1.122l3.87,3.87c0.151,0.151,0.35,0.228,0.548,0.228 s0.396-0.076,0.548-0.228C14.601,27.995,14.601,27.505,14.298,27.202z M1.55,20c0-2.454,1.997-4.45,4.45-4.45 c2.454,0,4.45,1.997,4.45,4.45S8.454,24.45,6,24.45C3.546,24.45,1.55,22.454,1.55,20z"></path>
+              </svg>
+            </a>
+            <div class="visually-hidden">Search Apple</div>
+  
+            <div class="main-nav-submenu-mobile position-absolute pb-5 d-none">
+
+              <div class="close-nav-item  position-absolute top-0 me-5 mt-3 end-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="close-svg svg-opacity-hover" viewBox="0 0 16 16" fill="rgba(255, 255, 255, 0.8)"><path d="M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z"/></svg>
+              </div>
+
+              <div class="container-lg py-1 p-lg-0">
+                <div class="searchBox d-flex align-items-center pt-3">
+                  <svg height="36" fill="rgba(232, 232, 237, 0.8)" viewBox="0 0 30 32" width="34" xmlns="http://www.w3.org/2000/svg"><path d="m23.3291 23.3066-4.35-4.35c-.0105-.0105-.0247-.0136-.0355-.0235a6.8714 6.8714 0 1 0 -1.5736 1.4969c.0214.0256.03.0575.0542.0815l4.35 4.35a1.1 1.1 0 1 0 1.5557-1.5547zm-15.4507-8.582a5.6031 5.6031 0 1 1 5.603 5.61 5.613 5.613 0 0 1 -5.603-5.61z"></path></svg>
+                  <input type="text" placeholder="Search apple.com" style="font-size: 20px;" class="fw-light ms-1 rounded-0 form-control form-control-plaintext">
+                  <svg height="18" fill="rgba(232, 232, 237, 0.8)" viewBox="0 0 14 14" width="18" xmlns="http://www.w3.org/2000/svg" style="cursor: pointer;" class="clearSearchApple svg-opacity-hover d-none"><path d="m7 .0339a6.9661 6.9661 0 1 0 6.9661 6.9661 6.9661 6.9661 0 0 0 -6.9661-6.9661zm2.798 8.9867a.55.55 0 0 1 -.778.7774l-2.02-2.02-2.02 2.02a.55.55 0 0 1 -.7784-.7774l2.0206-2.0206-2.0204-2.02a.55.55 0 0 1 .7782-.7778l2.02 2.02 2.02-2.02a.55.55 0 0 1 .778.7778l-2.0203 2.02z"></path></svg>
+                </div>
+  
+                <div class="group-header mt-3 mb-2 fw-bolder p-0">Quick Links</div>
+                    <ul class="list-unstyled quick-links pb-4">
+                      <li><a href="#" class="fw-semibold text-decoration-none text-white d-flex align-items-center">
+                        <img src="Assets/images/list-arrow-right.svg">
+                        <span class="ms-2">Find a store</span>
+                      </a></li>
+                      <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                        <img src="Assets/images/list-arrow-right.svg">
+                        <span class="ms-2">Apple Vision Pro</span>
+                      </a></li>
+                      <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                        <img src="Assets/images/list-arrow-right.svg">
+                        <span class="ms-2">AirPods</span>
+                      </a></li>
+                      <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                        <img src="Assets/images/list-arrow-right.svg">
+                        <span class="ms-2">AirTag</span>
+                      </a></li>
+                      <li><a href="#" class="fw-semibold text-decoration-none text-white">
+                        <img src="Assets/images/list-arrow-right.svg">
+                        <span class="ms-2">Apple Trade In</span>
+                      </a></li>
+                    </ul>
+              </div>
+            </div>
+          </div>
+          <div class="nav-link-mobile">
+            <a href="#" class="nv-link-click-mobile">
+              <svg height="44" viewBox="0 0 14 44" fill="rgba(255, 255, 255, 0.8)" width="14" xmlns="http://www.w3.org/2000/svg"><path d="m11.3535 16.0283h-1.0205a3.4229 3.4229 0 0 0 -3.333-2.9648 3.4229 3.4229 0 0 0 -3.333 2.9648h-1.02a2.1184 2.1184 0 0 0 -2.117 2.1162v7.7155a2.1186 2.1186 0 0 0 2.1162 2.1167h8.707a2.1186 2.1186 0 0 0 2.1168-2.1167v-7.7155a2.1184 2.1184 0 0 0 -2.1165-2.1162zm-4.3535-1.8652a2.3169 2.3169 0 0 1 2.2222 1.8652h-4.4444a2.3169 2.3169 0 0 1 2.2222-1.8652zm5.37 11.6969a1.0182 1.0182 0 0 1 -1.0166 1.0171h-8.7069a1.0182 1.0182 0 0 1 -1.0165-1.0171v-7.7155a1.0178 1.0178 0 0 1 1.0166-1.0166h8.707a1.0178 1.0178 0 0 1 1.0164 1.0166z"></path></svg>
+            </a>
+            <div class="visually-hidden">My Bag</div>
+  
+            <div class="main-nav-submenu-mobile position-fixed h-100 pb-5 d-none">
+              <div class="close-nav-item  position-absolute top-0 me-5 mt-3 end-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="close-svg svg-opacity-hover" viewBox="0 0 16 16" fill="rgba(255, 255, 255, 0.8)"><path d="M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z"/></svg>
+              </div>
+
+              <div class="container-lg py-2">
+                <h1 class="bagState fs-3 mb-3 fw-bolder text-faded-lighter">
+                  Your Bag is empty.
+                </h1>
+                <span class="text-faded" style="font-size: 18px;">
+                  <a href="#" class="link-primary" style="font-size: 18px;">Sign in</a> to see if you have any saved items
+                </span>
+                <div class="group-header mt-3 p-0" style="font-size: 16px;">My Profile</div>
+                <ul class="list-unstyled pt-3">
+                  <li>
+                    <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 16px;">
+                      <svg id="Outlined" fill="#86868b" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="shippingbox_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M14.5146,9.5234a2.56,2.56,0,0,0-1.11-1.4228l-4.25-2.3975a2.3909,2.3909,0,0,0-2.31,0l-4.25,2.3975a2.2971,2.2971,0,0,0-.6025.5107A2.2684,2.2684,0,0,0,1.4,10.1475v4.705a2.3546,2.3546,0,0,0,1.1953,2.0469l4.25,2.3975a2.3541,2.3541,0,0,0,2.31,0l4.25-2.3975A2.3546,2.3546,0,0,0,14.6,14.8525v-4.705A2.3322,2.3322,0,0,0,14.5146,9.5234ZM7.4,12.9453v5.2871L3.1851,15.8545a1.153,1.153,0,0,1-.585-1.002L2.603,10.24Zm.6-1.04L3.147,9.17a.4347.4347,0,0,1,.0385-.0244l1.7623-.9941,4.895,2.7158Zm5.4-1.666v4.6132a1.153,1.153,0,0,1-.585,1.002L8.6,18.2324V12.9453ZM8.5649,6.748l4.25,2.3975a.4347.4347,0,0,1,.0385.0244l-1.7842,1.0059L6.1733,7.46l1.2618-.712A1.1731,1.1731,0,0,1,8.5649,6.748Z" fill="6E6E73"></path></g></svg>
+                      <span class="text-white">Orders</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 16px;">
+                        <svg id="Outlined" fill="#86868b" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="bookmark_compact"><rect id="box_" width="16" height="25" fill="none"></rect>
+                        <path id="art_" d="M10.3,5.15H5.7a2.3022,2.3022,0,0,0-2.3,2.3V19.0381a.8642.8642,0,0,0,.19.5869.67.67,0,0,0,.5313.2246.7441.7441,0,0,0,.438-.1465,4.8685,4.8685,0,0,0,.5366-.4765l2.8931-2.8858,2.9165,2.8867a6.4062,6.4062,0,0,0,.5307.4717.7286.7286,0,0,0,.4429.15.6684.6684,0,0,0,.5308-.2246.8619.8619,0,0,0,.19-.5869V7.45A2.3022,2.3022,0,0,0,10.3,5.15ZM4.6,7.45A1.102,1.102,0,0,1,5.7,6.35h4.6A1.102,1.102,0,0,1,11.4,7.45l-.0005,10.5781L8.832,15.4863a1.186,1.186,0,0,0-1.665.001L4.6,18.0293Z" fill="6E6E73"></path></g></svg>
+                      <span class="text-white">Your Saves</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 16px;">
+                      <svg id="Outlined" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="gear_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M15.6094,12.3252a.5142.5142,0,0,0-.2959-.2959l-.5972-.2324a6.6665,6.6665,0,0,0-.16-.917l.4809-.42a.5172.5172,0,0,0-.3291-.9073l-.6372-.0136c-.0654-.1377-.1343-.2784-.2139-.4151s-.1635-.2636-.2519-.3935l.3076-.5576a.517.517,0,0,0-.62-.7393l-.6035.2051a6.68,6.68,0,0,0-.7134-.5977l.0986-.6328a.5172.5172,0,0,0-.43-.5918.54.54,0,0,0-.4052.1084l-.5015.4033A6.911,6.911,0,0,0,9.87,6.01l-.124-.6328a.5178.5178,0,0,0-.9512-.167l-.333.5507a7.2576,7.2576,0,0,0-.92.0039L7.2056,5.207a.518.518,0,0,0-.9512.167l-.125.6377a6.6192,6.6192,0,0,0-.8652.31l-.501-.4063a.5176.5176,0,0,0-.8364.4834l.0991.6358a6.6073,6.6073,0,0,0-.7017.5947L2.71,7.417a.5173.5173,0,0,0-.6211.7392l.3134.5694a6.7192,6.7192,0,0,0-.4653.7959l-.6421.0117a.516.516,0,0,0-.5083.5264.52.52,0,0,0,.1763.38l.4849.4238a6.8261,6.8261,0,0,0-.16.9111l-.6006.23a.5176.5176,0,0,0-.001.9658l.5972.2324a6.6665,6.6665,0,0,0,.16.917l-.4809.419a.5184.5184,0,0,0-.05.7314.52.52,0,0,0,.3789.1758l.6367.0137c.063.1318.1333.2754.2144.416.0673.1172.143.2246.2163.3281l.04.0566-.312.5664a.5176.5176,0,0,0,.2036.7032.52.52,0,0,0,.416.0361l.5967-.2031a6.82,6.82,0,0,0,.7207.5937l-.0991.6348a.5153.5153,0,0,0,.0933.3857.5187.5187,0,0,0,.7421.0977l.5064-.4082a6.6137,6.6137,0,0,0,.8628.3193l.1245.6358a.5139.5139,0,0,0,.22.33.53.53,0,0,0,.3877.0782.5193.5193,0,0,0,.3433-.24l.3388-.56.0577.0049a4.8076,4.8076,0,0,0,.7871.0019l.0669-.0058.3383.5625a.518.518,0,0,0,.9512-.167l.1245-.6348a6.6152,6.6152,0,0,0,.8589-.3193l.5088.4131a.5176.5176,0,0,0,.8364-.4834l-.0991-.6358a6.6173,6.6173,0,0,0,.7017-.5947l.6142.2119a.5174.5174,0,0,0,.6211-.7392l-.3135-.5694a6.6548,6.6548,0,0,0,.4649-.7959l.6421-.0117a.5168.5168,0,0,0,.5088-.5264.5166.5166,0,0,0-.1768-.38l-.4849-.4238a6.6694,6.6694,0,0,0,.16-.9111l.6006-.2315a.5177.5177,0,0,0,.2969-.6689ZM6.4941,13.9043,4.7666,16.8926a5.4449,5.4449,0,0,1,.0044-8.792L6.5,11.0986A2.0525,2.0525,0,0,0,6.4941,13.9043Zm2.1646-1.7822a.7608.7608,0,1,1-.4609-.3555A.7543.7543,0,0,1,8.6587,12.1221ZM7.54,10.499,5.8154,7.5068A5.4579,5.4579,0,0,1,7.9907,7.041h.0239a5.4693,5.4693,0,0,1,5.4068,4.8633l-3.457-.0029a2.0363,2.0363,0,0,0-.18-.43A2.0586,2.0586,0,0,0,7.54,10.499Zm-.0058,4.0049a2.0556,2.0556,0,0,0,2.435-1.4023l3.4512.0029a5.4455,5.4455,0,0,1-7.6147,4.3877Z" fill="#6E6E73"></path></g></svg>
+                      <span class="text-white">Account</span>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#" class="text-decoration-none d-flex align-items-center" style="font-size: 16px;">
+                      <svg id="Outlined" xmlns="http://www.w3.org/2000/svg" class="me-2" width="18" height="28" viewBox="0 0 16 25"><g id="person.crop.circle_compact"><rect id="box_" width="16" height="25" fill="none"></rect><path id="art_" d="M15.09,12.5a7.1,7.1,0,1,1-7.1-7.1A7.1077,7.1077,0,0,1,15.09,12.5ZM7.99,6.6a5.89,5.89,0,0,0-4.4609,9.7471c.6069-.9658,2.48-1.6787,4.4609-1.6787s3.8545.7129,4.4615,1.6787A5.89,5.89,0,0,0,7.99,6.6ZM7.99,8.4A2.5425,2.5425,0,0,0,5.5151,11,2.5425,2.5425,0,0,0,7.99,13.6,2.5424,2.5424,0,0,0,10.4653,11,2.5424,2.5424,0,0,0,7.99,8.4Z" fill="#6E6E73"></path></g></svg>
+                      <span class="text-white">Sign in</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>                
+          </div>
+        </div>
+        
+        <button class="navbar-toggler border-0 border position-absolute" data-shown="false" style="right: 0" type="button" data-bs-toggle="collapse" data-bs-target="#globalNavBar" aria-controls="globalNavBar" aria-expanded="false" aria-label="Toggle navigation">
+          <svg width="18" style="color: rgba(255, 255, 255, 0.8)" stroke="rgba(255, 255, 255, 0.8)" height="18" viewBox="0 0 18 18"><polyline id="globalnav-menutrigger-bread-bottom" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 12, 16 12" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-bottom"><animate id="globalnav-anim-menutrigger-bread-bottom-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 12, 16 12; 2 9, 16 9; 3.5 15, 15 3.5"></animate><animate id="globalnav-anim-menutrigger-bread-bottom-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 15, 15 3.5; 2 9, 16 9; 2 12, 16 12"></animate></polyline><polyline id="globalnav-menutrigger-bread-top" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" points="2 5, 16 5" class="globalnav-menutrigger-bread globalnav-menutrigger-bread-top"><animate id="globalnav-anim-menutrigger-bread-top-open" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 2 5, 16 5; 2 9, 16 9; 3.5 3.5, 15 15"></animate><animate id="globalnav-anim-menutrigger-bread-top-close" attributeName="points" keyTimes="0;0.5;1" dur="0.24s" begin="indefinite" fill="freeze" calcMode="spline" keySplines="0.42, 0, 1, 1;0, 0, 0.58, 1" values=" 3.5 3.5, 15 15; 2 9, 16 9; 2 5, 16 5"></animate></polyline></svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+  
+  <main class="container-xxl p-0">
+    <section class="container-xxl g-0 p-0 mainSection">
+        <div class="iPhone15HeroImg bg-img-utility aboutSection text-center" style="padding-top: 80px;">
+          <h1 class="header-text fw-semibold">iPhone 15 Pro</h1>
+          <h2 class="sub-header fw-normal">Titanium. So strong. So light. So Pro.</h2>
+          <div>
+            <a href="#" class="link-detail">
+              Learn more
+            </a>
+            <a href="#" class="link-detail">
+              Buy
+            </a>
+          </div>
+        </div>
+    </section>
+
+    <section class="container-xxl g-0 mt-3 p-0 mainSection">
+        <div class="iPhone15Announcement bg-img-utility aboutSection text-center">
+          <h1 class="header-text fw-semibold text-al-dark">iPhone 15</h1>
+          <h2 class="sub-header fw-normal text-al-dark">New camera. New design. Newphoria.</h2>
+          <div>
+            <a href="#" class="link-detail">
+              Learn more
+            </a>
+            <a href="#" class="link-detail">
+              Buy
+            </a>
+          </div>
+        </div>
+    </section>
+    
+    <section class="container-xxl" style="min-height: 80vh; width: 100vw;">
+      <div class="row w-100 row-cols-1 row-cols-md-2 g-1 g-md-2 px-md-2 p-0 mt-3 p-0" style="min-height: 100vh;   width: 100vw;">
+        <div class="col" style="min-height: 80vh;">
+          <div class="visionProBg pb-5 bg-img-utility aboutSection text-center d-flex flex-column justify-content-end border-black">
+            <h1 class="visionProImg img-sm-utility">
+              <div class="visually-hidden">
+                Vision Pro 
+              </div>
+            </h1>
+            <p class="visionProSubHeading fw-semibold text-al-dark">Welcome to the era of spatial computing.</p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Learn more
+              </a>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-2" style="min-height: 80vh;">
+          <div class="appleWatchBg h-100 bg-img-utility aboutSection text-center">
+            <h1 class="appleWatchImg img-sm-utility mb-4">
+              <div class="visually-hidden">
+                Apple Watch 
+              </div>
+            </h1>
+            <p class="text-white fw-normal" style="font-size: 19px;">Smarter. Brighter. Mightier.</p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 18px;">
+                Learn more
+              </a>
+              <a href="#" class="link-detail" style="font-size: 18px;">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="min-height: 80vh;">
+          <div class="macBookProBg pb-5 bg-img-utility aboutSection text-center">
+            <h1>MacBook Pro</h1>
+
+            <p class="text-al-dark" style="font-size: 19px;">Mind-blowing. Head-turning.</p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Learn more
+              </a>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-2" style="min-height: 80vh;">
+          <div class="iPadBg pb-5 bg-img-utility aboutSection text-center">
+            <h1>iPad</h1>
+
+            <p class="text-al-dark" style="font-size: 19px;">Lovable. Drawable. Magical</p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Learn more
+              </a>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col" style="min-height: 80vh;">
+          <div class="appleCardBg pb-5 bg-img-utility aboutSection text-center">
+            <h1 class="appleCardImg img-sm-utility">
+              <div class="visually-hidden">
+                Apple Card
+              </div>
+            </h1>
+
+            <p class="fw-semibold text-al-dark" style="font-size: 19px;">Get up to 3% Daily Cash back <br> with every purchase.</p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Learn more
+              </a>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                Buy
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col mt-2" style="min-height: 80vh;">
+          <div class="appleTradInBg pb-5 bg-img-utility aboutSection text-center">
+            <h1 class="appleTradeInImg img-sm-utility">
+              <div class="visually-hidden">
+                Apple Trade In
+              </div>
+            </h1>
+
+            <p class="text-al-dark fw-semibold" style="font-size: 19px;">Get $180-$620 in credit when you <br> trade in iPhone 11 or higher. <sup>1</sup></p>
+            <div>
+              <a href="#" class="link-detail" style="font-size: 19px;">
+                See what your device is worth
+              </a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </section>
+
+    <section class="container mt-3" >
+        <div id="appleTvCarousel" class="carousel slide h-100" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#appleTvCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#appleTvCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#appleTvCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#appleTvCarousel" data-bs-slide-to="3" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#appleTvCarousel" data-bs-slide-to="4" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Assets/images/carousel images/constellation lg.jpg" data-imgNum="0" class="d-block w-100">
+              <div class="carousel-caption d-none d-md-block">
+                <p style="font-size: 19px;" class="fw-bold">mystery . Reality is a conspiracy.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/images/carousel images/moa lg.jpg" class="d-block w-100" data-imgNum="1">
+              <div class="carousel-caption d-none d-md-block">
+                <p style="font-size: 19px;" class="fw-bold"><strong>Drama.</strong>From Steven Spielberg, Tom Hanks, and Gary Goetzman.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/images/carousel images/tnl lg.jpg" class="d-block w-100" data-imgNum="2">
+              <div class="carousel-caption d-none d-md-block">
+                <p style="font-size: 19px;" class="fw-bold"><strong>Drama.</strong>Creation is survival.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/images/carousel images/mwc lg.jpg" class="d-block w-100" data-imgNum="3">
+              <div class="carousel-caption d-none d-md-block">
+                <p style="font-size: 19px;" class="fw-bold"><strong>Documentary.</strong>The epic journey to the ultimate prize.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="Assets/images/carousel images/tdn lg.jpg" class="d-block w-100" data-imgNum="4">
+              <div class="carousel-caption d-none d-md-block">
+                <p style="font-size: 19px;" class="fw-bold"><strong>Documentary.</strong>The true story can finally be told.</p>
+              </div>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev d-md-none" type="button" data-bs-target="#appleTvCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next d-md-none" type="button" data-bs-target="#appleTvCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="mt-3 px-3 pb-3" style="background-color: rgb(245, 245, 247);">
+    <div class="container-md p-0">
+      <section class="py-3">
+        <p class="footer-text">
+          1. Trade-in values will vary based on the condition, year, and configuration of your eligible trade-in device. Not all devices are eligible for credit. You must be at least 18 years old to be eligible to trade in for credit or for an Apple Gift Card. Trade-in value may be applied toward qualifying new device purchase, or added to an Apple Gift Card. Actual value awarded is based on receipt of a qualifying device matching the description provided when estimate was made. Sales tax may be assessed on full value of a new device purchase. In-store trade-in requires presentation of a valid photo ID (local law may require saving this information). Offer may not be available in all stores, and may vary between in-store and online trade-in. Some stores may have additional requirements. Apple or its trade-in partners reserve the right to refuse or limit quantity of any trade-in transaction for any reason. More details are available from Apple’s trade-in partner for trade-in and recycling of eligible devices. Restrictions and limitations may apply.
+        </p>
+        <p class="footer-text">
+          Available in the U.S. on <a href="apple.com" class="footer-link">apple.com</a>, in the Apple Store app, and at Apple Stores.
+        </p>
+        <p class="footer-text">
+          To access and use all Apple Card features and products available only to Apple Card users, you must add Apple Card to Wallet on an iPhone or iPad that supports and has the latest version of iOS or iPadOS. Apple Card is subject to credit approval, available only for qualifying applicants in the United States, and issued by Goldman Sachs Bank USA, Salt Lake City Branch.
+        </p>
+        <p class="footer-text">
+          If you reside in the U.S. territories, please call Goldman Sachs at 877-255-5923 with questions about Apple Card.
+        </p>
+        <p class="footer-text">
+          Learn more about how Apple Card applications are evaluated at <a href="#" class="footer-link">support.apple.com/kb/HT209218</a>.
+        </p>
+        <p class="footer-text">
+          A subscription is required for Apple TV+.
+        </p>
+        <hr>
+      </section>
+
+      <!-- For larger screens -->
+      <section class="d-none d-md-block">
+        <div class="row">
+          <div class="col">
+            <div class="footer-link-header">
+              Shop and Learn
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Store</a></li>
+              <li><a href="#" class="footer-link">Mac</a></li>
+              <li><a href="#" class="footer-link">iPad</a></li>
+              <li><a href="#" class="footer-link">iPhone</a></li>
+              <li><a href="#" class="footer-link">Watch</a></li>
+              <li><a href="#" class="footer-link">Vision</a></li>
+              <li><a href="#" class="footer-link">AirPods</a></li>
+              <li><a href="#" class="footer-link">TV & Home</a></li>
+              <li><a href="#" class="footer-link">Air Tag</a></li>
+              <li><a href="#" class="footer-link">Accessories</a></li>
+              <li><a href="#" class="footer-link">Gift Cards</a></li>
+            </ul>
+
+            <div class="footer-link-header">
+              Apple Wallet
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Wallet</a></li>
+              <li><a href="#" class="footer-link">Apple Card</a></li>
+              <li><a href="#" class="footer-link">Apple Pay</a></li>
+              <li><a href="#" class="footer-link">Apple Cash</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="footer-link-header">
+              Account
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Manage your Apple ID</a></li>
+              <li><a href="#" class="footer-link">Apple Store Account</a></li>
+              <li><a href="#" class="footer-link">iCloud.com</a></li>
+            </ul>
+
+            <div class="footer-link-header">
+              Entertainment
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Apple One</a></li>
+              <li><a href="#" class="footer-link">Apple TV+</a></li>
+              <li><a href="#" class="footer-link">Apple Music</a></li>
+              <li><a href="#" class="footer-link">Apple Arcade</a></li>
+              <li><a href="#" class="footer-link">Apple Fitness+</a></li>
+              <li><a href="#" class="footer-link">Apple News+</a></li>
+              <li><a href="#" class="footer-link">Apple Podcasts</a></li>
+              <li><a href="#" class="footer-link">Apple Books</a></li>
+              <li><a href="#" class="footer-link">Apple Store</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="footer-link-header">
+              Apple Store
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Find a Store</a></li>
+              <li><a href="#" class="footer-link">Genius Bar</a></li>
+              <li><a href="#" class="footer-link">Today at Apple</a></li>
+              <li><a href="#" class="footer-link">Apple Camp</a></li>
+              <li><a href="#" class="footer-link">Apple Store App</a></li>
+              <li><a href="#" class="footer-link">Certified Refurbished</a></li>
+              <li><a href="#" class="footer-link">Apple Trade In</a></li>
+              <li><a href="#" class="footer-link">Financing</a></li>
+              <li><a href="#" class="footer-link">Carrier Deals at Apple</a></li>
+              <li><a href="#" class="footer-link">Order Status</a></li>
+              <li><a href="#" class="footer-link">Shopping Help</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="footer-link-header">
+              For Business
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Apple and Business</a></li>
+              <li><a href="#" class="footer-link">Shop for Business</a></li>
+            </ul>
+            
+            <div class="footer-link-header">
+              For Education
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Apple and Education></li>
+              <li><a href="#" class="footer-link">Shop for k-12</a></li>
+              <li><a href="#" class="footer-link">Shop for College</a></li>
+            </ul>
+
+            <div class="footer-link-header">Healthcare
+              For 
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Apple in Healthcare</a></li>
+              <li><a href="#" class="footer-link">Health on Apple Watch</a></li>
+              <li><a href="#" class="footer-link">Health Records on iPhone</a></li>
+            </ul>
+
+            <div class="footer-link-header">
+              For Government
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Shop for Government</a></li>
+              <li><a href="#" class="footer-link">Shop for Veterans and Military</a></li>
+            </ul>
+          </div>
+          <div class="col">
+            <div class="footer-link-header">
+              Apple Values
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Accessibility</a></li>
+              <li><a href="#" class="footer-link">Education</a></li>
+              <li><a href="#" class="footer-link">Environment</a></li>
+              <li><a href="#" class="footer-link">Inclusion and Diversity</a></li>
+              <li><a href="#" class="footer-link">Privacy</a></li>
+              <li><a href="#" class="footer-link">Supplier Responsibility</a></li>
+            </ul>
+            
+            <div class="footer-link-header">
+              About Apple
+            </div>
+            <ul>
+              <li><a href="#" class="footer-link">Newsroom<a></li>
+              <li><a href="#" class="footer-link">Apple Leadership</a></li>
+              <li><a href="#" class="footer-link">Career Opportunities</a></li>
+              <li><a href="#" class="footer-link">Investors</a></li>
+              <li><a href="#" class="footer-link">Ethics & Compliance</a></li>
+              <li><a href="#" class="footer-link">Events</a></li>
+              <li><a href="#" class="footer-link">Contact Apple</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- For smaller screens -->
+      <section class="d-md-none">
+        <div class="accordion accordion-flush" id="footerNoteApple">
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-header-button" type="button" data-bs-toggle="collapse" data-bs-target="#shopAndLearn" aria-controls="shopAndLearn">
+                Shop and Learn
+              </button>
+            </h2>
+            <div id="shopAndLearn" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <ul>
+                  <li><a href="#" class="footer-link">Store</a></li>
+                  <li><a href="#" class="footer-link">Mac</a></li>
+                  <li><a href="#" class="footer-link">iPad</a></li>
+                  <li><a href="#" class="footer-link">iPhone</a></li>
+                  <li><a href="#" class="footer-link">Watch</a></li>
+                  <li><a href="#" class="footer-link">Vision</a></li>
+                  <li><a href="#" class="footer-link">AirPods</a></li>
+                  <li><a href="#" class="footer-link">TV & Home</a></li>
+                  <li><a href="#" class="footer-link">AirTag</a></li>
+                  <li><a href="#" class="footer-link">Accessories</a></li>
+                  <li><a href="#" class="footer-link">Gift Cards</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-header-button" type="button" data-bs-toggle="collapse" data-bs-target="#appleWallet" aria-expanded="false" aria-controls="appleWallet">
+                Apple Wallet
+              </button>
+            </h2>
+            <div id="appleWallet" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <ul>
+                  <li><a href="#" class="footer-link">Wallet</a></li>
+                  <li><a href="#" class="footer-link">Apple Card</a></li>
+                  <li><a href="#" class="footer-link">Apple Pay</a></li>
+                  <li><a href="#" class="footer-link">Apple Cash</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-header-button" type="button" data-bs-toggle="collapse" data-bs-target="#accountFooter" aria-expanded="false" aria-controls="accountFooter">
+                Account
+              </button>
+            </h2>
+            <div id="accountFooter" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <ul>
+                  <li><a href="#" class="footer-link">Manage Your Apple ID</a></li>
+                  <li><a href="#" class="footer-link">Apple Store Account</a></li>
+                  <li><a href="#" class="footer-link">iCloud.com</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-header-button" type="button" data-bs-toggle="collapse" data-bs-target="#entertainmentFooter" aria-expanded="false" aria-controls="entertainmentFooter">
+                Entertainment
+              </button>
+            </h2>
+            <div id="entertainmentFooter" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <ul>
+                  <li><a href="#" class="footer-link">Apple One</a></li>
+                  <li><a href="#" class="footer-link">Apple TV+</a></li>
+                  <li><a href="#" class="footer-link">Apple Music</a></li>
+                  <li><a href="#" class="footer-link">Apple Arcade</a></li>
+                  <li><a href="#" class="footer-link">Apple Fitness+</a></li>
+                  <li><a href="#" class="footer-link">Apple News+</a></li>
+                  <li><a href="#" class="footer-link">Apple Podcasts</a></li>
+                  <li><a href="#" class="footer-link">Apple Books</a></li>
+                  <li><a href="#" class="footer-link">Apple Store</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header">
+              <button class="accordion-button collapsed accordion-header-button" type="button" data-bs-toggle="collapse" data-bs-target="#appleStoreFooter" aria-expanded="false" aria-controls="appleStoreFooter">
+                Apple Store
+              </button>
+            </h2>
+            <div id="appleStoreFooter" class="accordion-collapse collapse">
+              <div class="accordion-body p-0">
+                <ul>
+                  <li><a href="#" class="footer-link">Find a store</a></li>
+                  <li><a href="#" class="footer-link">Genius Bar</a></li>
+                  <li><a href="#" class="footer-link">Today at Apple</a></li>
+                  <li><a href="#" class="footer-link">Apple Camp</a></li>
+                  <li><a href="#" class="footer-link">Apple Store App</a></li>
+                  <li><a href="#" class="footer-link">Certified Refurbished<a></li>
+                  <li><a href="#" class="footer-link">Apple Trade In</a></li>
+                  <li><a href="#" class="footer-link">Financing</a></li>
+                  <li><a href="#" class="footer-link">Carrier Deals at Apple</a></li>
+                  <li><a href="#" class="footer-link">Order Status</a></li>
+                  <li><a href="#" class="footer-link">Shopping Help</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="footerNote footer-text">
+        <p class="footer-text">
+          More ways to shop: <a href="#" class="link-primary">Find an Apple Store</a> or <a href="#" class="link-primary">other retailer</a> near you. Or call 1-800-MY-APPLE.
+          <hr>
+        </p>
+        <p>
+          <span class="me-4 footer-text">
+            Copyright &copy; 2024 Apple Inc. All rights reserved.
+          </span>
+
+          <a href="#" class="float-md-end d-block my-md-0 my-2 d-md-inline footer-link">United States</a>
+          <span class="d-block d-md-inline">
+            <a href="#" class="footer-link">Privacy Policy &nbsp;</a>
+            <span>|</span>
+            <a href="#" class="footer-link">&nbsp; Terms of Use &nbsp;</a>
+            <span>|</span>
+            <a href="#" class="footer-link">&nbsp; Sales and Refunds &nbsp;</a>
+            <span>|</span>
+            <a href="#" class="footer-link">&nbsp; Legal &nbsp;</a>
+            <span>|</span>
+            <a href="#" class="footer-link">&nbsp; Site Map</a>
+          </span>
+        </p>
+      </section>
+    </div>
+  </footer>
+</body>
+</html>
